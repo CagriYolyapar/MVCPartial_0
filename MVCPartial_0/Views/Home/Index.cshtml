@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div style="background-color:blue" class="col-md-6">
+          @Html.Partial("_DenemePartial")
+        </div>
+
+        <div style="background-color:aqua" class="col-md-6">
+            @Html.Partial("_DenemePartial")
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div>
+    @Html.Partial("_HomePartial")
+</div>
